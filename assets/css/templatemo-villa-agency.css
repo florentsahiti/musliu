@@ -1704,10 +1704,16 @@ body {
   overflow-x: hidden;
 }
 
+/* @media (max-width: 400px){
+  iframe{
+    width: 100px;
+  } */
+}
 @media (max-width: 767px) {
   .header-area .main-nav .logo h1 {
     line-height: 80px !important;
   }
+ 
   .best-deal .tabs-content .nav-link {
     font-size: 14px;
     padding: 0px 15px;
